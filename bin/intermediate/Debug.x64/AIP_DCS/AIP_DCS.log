@@ -1,0 +1,516 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  pch.cpp
+  action_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/action_node.cpp'을(를) 컴파일하는 중)
+  
+  basic_types.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/basic_types.cpp'을(를) 컴파일하는 중)
+  
+  behavior_tree.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/behavior_tree.cpp'을(를) 컴파일하는 중)
+  
+  blackboard.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/blackboard.cpp'을(를) 컴파일하는 중)
+  
+  CPPBlackBoard.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/BlackBoard/CPPBlackBoard.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/BlackBoard/CPPBlackBoard.cpp'을(를) 컴파일하는 중)
+  
+  DECO_AngleOffCheck.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Decorator\DECO_AngleOffCheck.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_AngleOffCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_AngleOffCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_AngleOffCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_AngleOffCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_AngleOffCheck.cpp'을(를) 컴파일하는 중)
+  
+  DECO_BFMCheck.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Decorator\DECO_BFMCheck.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_BFMCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_BFMCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_BFMCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_BFMCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_BFMCheck.cpp'을(를) 컴파일하는 중)
+  
+  DECO_DistanceCheck.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Decorator\DECO_DistanceCheck.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_DistanceCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_DistanceCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_DistanceCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_DistanceCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_DistanceCheck.cpp'을(를) 컴파일하는 중)
+  
+  DECO_LOSCheck.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Decorator\DECO_LOSCheck.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_LOSCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_LOSCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_LOSCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_LOSCheck.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Decorator/DECO_LOSCheck.cpp'을(를) 컴파일하는 중)
+  
+  Functions.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Functions.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Functions.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Functions.cpp'을(를) 컴파일하는 중)
+  
+  AngleOffUpdate.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AngleOffUpdate.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AngleOffUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AngleOffUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AngleOffUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AngleOffUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AngleOffUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AngleOffUpdate.cpp(20,13): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AngleOffUpdate.cpp(22,34): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AspectAngleUpdate.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AspectAngleUpdate.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AspectAngleUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AspectAngleUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AspectAngleUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AspectAngleUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/AspectAngleUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AspectAngleUpdate.cpp(24,11): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AspectAngleUpdate.cpp(29,12): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\AspectAngleUpdate.cpp(31,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CheckSight.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/CheckSight.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/CheckSight.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/CheckSight.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/CheckSight.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/CheckSight.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(58,18): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(64,20): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(65,20): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(97,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(101,21): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\CheckSight.cpp(102,21): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DirectionVectorUpdate.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\DirectionVectorUpdate.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DirectionVectorUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DirectionVectorUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DirectionVectorUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DirectionVectorUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DirectionVectorUpdate.cpp'을(를) 컴파일하는 중)
+  
+  DistanceUpdate.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\DistanceUpdate.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DistanceUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DistanceUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DistanceUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DistanceUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/DistanceUpdate.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Service\DistanceUpdate.cpp(21,18): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SelectTarget.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/SelectTarget.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/SelectTarget.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/SelectTarget.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/SelectTarget.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Service/SelectTarget.cpp'을(를) 컴파일하는 중)
+  
+  Task_Empty.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Task/Task_Empty.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Task/Task_Empty.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Task/Task_Empty.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Task/Task_Empty.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/BT_Content/Task/Task_Empty.cpp'을(를) 컴파일하는 중)
+  
+  bt_factory.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/bt_factory.cpp'을(를) 컴파일하는 중)
+  
+  condition_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/condition_node.cpp'을(를) 컴파일하는 중)
+  
+  fallback_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/fallback_node.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  parallel_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/parallel_node.cpp'을(를) 컴파일하는 중)
+  
+  reactive_fallback.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/reactive_fallback.cpp'을(를) 컴파일하는 중)
+  
+  reactive_sequence.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/reactive_sequence.cpp'을(를) 컴파일하는 중)
+  
+  sequence_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/sequence_node.cpp'을(를) 컴파일하는 중)
+  
+  sequence_star_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/sequence_star_node.cpp'을(를) 컴파일하는 중)
+  
+  switch_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/controls/switch_node.cpp'을(를) 컴파일하는 중)
+  
+  control_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/control_node.cpp'을(를) 컴파일하는 중)
+  
+  CPPBehaviorTree.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\CPPBehaviorTree.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/CPPBehaviorTree.cpp'을(를) 컴파일하는 중)
+  
+  inverter_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/decorators/inverter_node.cpp'을(를) 컴파일하는 중)
+  
+  repeat_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/decorators/repeat_node.cpp'을(를) 컴파일하는 중)
+  
+  retry_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/decorators/retry_node.cpp'을(를) 컴파일하는 중)
+  
+  subtree_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/decorators/subtree_node.cpp'을(를) 컴파일하는 중)
+  
+  timeout_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/decorators/timeout_node.cpp'을(를) 컴파일하는 중)
+  
+  decorator_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/decorator_node.cpp'을(를) 컴파일하는 중)
+  
+  shared_library.cpp
+  shared_library_WIN.cpp
+  tinyxml2.cpp
+  tree_node.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/tree_node.cpp'을(를) 컴파일하는 중)
+  
+  xml_parsing.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'BehaviorTree/xml_parsing.cpp'을(를) 컴파일하는 중)
+  
+  dllmain.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Angle.cpp
+  AxisAngle.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\AxisAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/AxisAngle.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/AxisAngle.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/AxisAngle.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/AxisAngle.cpp'을(를) 컴파일하는 중)
+  
+  Controller_CY.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Controller_CY.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Controller_CY.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Controller_CY.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Controller_CY.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(76,20): warning C4244: '+=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(76,20): warning C4244:         with
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(76,20): warning C4244:         [
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(76,20): warning C4244:             _Ty=float
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(76,20): warning C4244:         ]
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(79,11): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(128,31): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(130,12): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(137,23): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(141,20): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(162,28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(166,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(193,16): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(199,65): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.cpp(203,61): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CoordinateConverter.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/CoordinateConverter.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/CoordinateConverter.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/CoordinateConverter.cpp'을(를) 컴파일하는 중)
+  
+  EulerAngle.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/EulerAngle.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/EulerAngle.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\AxisAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/EulerAngle.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/EulerAngle.cpp'을(를) 컴파일하는 중)
+  
+  Math.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Math.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix4.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Math.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Math.cpp'을(를) 컴파일하는 중)
+  
+  Matrix3.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix3.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix3.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix3.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\AxisAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix3.cpp'을(를) 컴파일하는 중)
+  
+  Matrix4.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix4.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix4.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix4.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Matrix4.cpp'을(를) 컴파일하는 중)
+  
+  Quaternion.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Quaternion.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Quaternion.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\AxisAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Quaternion.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Quaternion.cpp'을(를) 컴파일하는 중)
+  
+  Vector3.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix4.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Vector3.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Vector3.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Vector3.cpp'을(를) 컴파일하는 중)
+  
+  Vector4.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix4.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Vector4.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Vector4.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Geometry/Vector4.cpp'을(를) 컴파일하는 중)
+  
+  LibMain.cpp
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\CPPBehaviorTree.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\behaviortree_cpp_v3\utils\any.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\Functions.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\EulerAngle.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Quaternion.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\BehaviorTree\BT_Content\BlackBoard\CPPBlackBoard.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Controller_CY.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Matrix3.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'LibMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(199,35): warning C4190: 'LLAtoCartesian'에 C 연결을 지정했으나 C와 호환되지 않는 'BT_Geometry::Vector3'을(를) 반환합니다.
+      C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Vector3.h(18,7):
+      'BT_Geometry::Vector3' 선언을 참조하십시오.
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(209,35): warning C4190: 'GetVP'에 C 연결을 지정했으나 C와 호환되지 않는 'BT_Geometry::Vector3'을(를) 반환합니다.
+      C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\Geometry\Vector3.h(18,7):
+      'BT_Geometry::Vector3' 선언을 참조하십시오.
+  
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(498,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(499,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(500,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(501,25): warning C4244: '=': 'BT_Geometry::Angle'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(502,26): warning C4244: '=': 'BT_Geometry::Angle'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(503,25): warning C4244: '=': 'BT_Geometry::Angle'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(504,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(506,26): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\LibMain.cpp(508,26): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  LINK : C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\..\bin\debug.x64\AIP_DCS.dll을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+     C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\../bin/debug.x64\AIP_DCS.lib 라이브러리 및 C:\Users\Codemist\Desktop\AIP_forStudent\AIP_DCS\../bin/debug.x64\AIP_DCS.exp 개체를 생성하고 있습니다.
+  AIP_DCS.vcxproj -> C:\Users\Codemist\Desktop\AIP_forStudent\bin\debug.x64\AIP_DCS.dll

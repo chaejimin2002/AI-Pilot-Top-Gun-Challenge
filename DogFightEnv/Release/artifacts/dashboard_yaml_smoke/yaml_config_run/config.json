@@ -1,0 +1,89 @@
+{
+  "script": "train_rllib",
+  "final_cli_argv": [
+    "--algorithm",
+    "ppo"
+  ],
+  "experiment_yaml": "K:\\01.workspace\\newAIP_workspace\\DogFightEnv\\DogFightEnv\\Release\\experiments\\ppo_bt_baseline.yaml",
+  "name": "ppo_bt_baseline",
+  "output": {
+    "name": "f16_single_agent",
+    "tag": "ppo_bt_baseline"
+  },
+  "env": {
+    "observation_mode": "tactical16",
+    "target_mode": "behavior_tree",
+    "target_behavior_dll": "AIP_DCS_base.dll",
+    "max_engage_time": 300.0,
+    "episode_step_limit": 18000
+  },
+  "algo": {
+    "name": "ppo",
+    "framework": "torch",
+    "lr": 0.0003,
+    "gamma": 0.99,
+    "train_batch_size": 4096,
+    "minibatch_size": 256,
+    "gae_lambda": 0.95,
+    "clip_param": 0.2,
+    "tau": 0.005,
+    "target_entropy": "auto"
+  },
+  "runtime": {
+    "iterations": 50,
+    "num_env_runners": 1,
+    "num_envs_per_env_runner": 1,
+    "rollout_fragment_length": "auto",
+    "batch_mode": "truncate_episodes",
+    "use_tune": false,
+    "checkpoint_frequency": 0,
+    "save_native_checkpoint": false
+  },
+  "dashboard": {
+    "enabled": true,
+    "logdir": "artifacts/dashboard"
+  },
+  "notes": "Release PPO baseline against BT target",
+  "experiment": {
+    "name": "ppo_bt_baseline",
+    "script": "train_rllib",
+    "output": {
+      "name": "f16_single_agent",
+      "tag": "ppo_bt_baseline"
+    },
+    "env": {
+      "observation_mode": "tactical16",
+      "target_mode": "behavior_tree",
+      "target_behavior_dll": "AIP_DCS_base.dll",
+      "max_engage_time": 300.0,
+      "episode_step_limit": 18000
+    },
+    "algo": {
+      "name": "ppo",
+      "framework": "torch",
+      "lr": 0.0003,
+      "gamma": 0.99,
+      "train_batch_size": 4096,
+      "minibatch_size": 256,
+      "gae_lambda": 0.95,
+      "clip_param": 0.2,
+      "tau": 0.005,
+      "target_entropy": "auto"
+    },
+    "runtime": {
+      "iterations": 50,
+      "num_env_runners": 1,
+      "num_envs_per_env_runner": 1,
+      "rollout_fragment_length": "auto",
+      "batch_mode": "truncate_episodes",
+      "use_tune": false,
+      "checkpoint_frequency": 0,
+      "save_native_checkpoint": false
+    },
+    "dashboard": {
+      "enabled": true,
+      "logdir": "artifacts/dashboard"
+    },
+    "notes": "Release PPO baseline against BT target"
+  }
+}
