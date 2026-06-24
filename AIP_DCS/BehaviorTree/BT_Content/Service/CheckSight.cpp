@@ -57,9 +57,16 @@ namespace Action
 		Vector3 TV = TargetLocation - MyLocation;
 		float Distance = MyLocation.distance(TargetLocation);
 
+		if(Distance == 0)
+		{
+			//내 위치와 적기 위치가 완전히 일치하는 경우, 시야각 계산이 불가능하므로 적이 시야 안에 있다고 가정
+			(*BB)->Los_Degree = 0.0f;
+			(*BB)->EnemyInSight = true;
+			(*BB)->Los_Degree_Target = 0.0f;
+			(*BB)->EnemyInSight_Target = true;
+			return NodeStatus::SUCCESS;
+		}
 		TV = TV / Distance;
-
-
 
 		float Los_Radian = acos(ForwardVector.dot(TV));
 		float Los_Degree = Los_Radian * 57.2958;
@@ -96,6 +103,15 @@ namespace Action
 		Vector3 TV2 = TargetLocation2 - MyLocation2;
 		float Distance2 = MyLocation2.distance(TargetLocation2);
 
+		if(Distance2 == 0)
+		{
+			//적기 위치와 내 위치가 완전히 일치하는 경우, 시야각 계산이 불가능하므로 내가 적기의 시야 안에 있다고 가정
+			(*BB)->Los_Degree = 0.0f;
+			(*BB)->EnemyInSight = true;
+			(*BB)->Los_Degree_Target = 0.0f;
+			(*BB)->EnemyInSight_Target = true;
+			return NodeStatus::SUCCESS;
+		}
 		TV2 = TV2 / Distance2;
 
 		float Los_Radian2 = acos(ForwardVector2.dot(TV2));

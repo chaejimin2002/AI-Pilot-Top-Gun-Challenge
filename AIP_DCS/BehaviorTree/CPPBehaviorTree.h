@@ -42,6 +42,7 @@ private:
 	double elev0;
 	double aile0;
 	double eccen;
+	bool bInitialized;
 
 private:
 	//Lat, Lon, 고도는 meter
@@ -63,6 +64,7 @@ public:
 	
 	//트리 xml과 각 노드들을 load하고 블랙보드를 초기화 하는 부분
 	void init();	
+	bool IsInitialized() const;
 
 	/*
 	비헤비어트리를 통하여 추적점 생성

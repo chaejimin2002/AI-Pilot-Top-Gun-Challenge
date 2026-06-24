@@ -37,6 +37,7 @@ from dogfight.ai.engagement_replay_logger import EngagementReplayLogger
 from dogfight.ai.policy_probe_logger import PolicyProbeLogger
 from dogfight.ai.rllib_utils import build_algorithm_config, normalize_algorithm_name
 from dogfight.ai.student_hooks import load_observation_hook, load_reward_hook
+from dogfight.ai.training.config_io import deep_update, load_experiment_env_config
 from dogfight.ai.training_record import save_training_record
 
 
@@ -471,36 +472,6 @@ def _json_safe(value: Any):
 def _resolve_dashboard_root(path: str) -> Path:
     root = Path(path)
     return root if root.is_absolute() else ROOT / root
-
-
-def _deep_update(base: dict, updates: dict) -> dict:
-    """Recursively merge nested YAML config into the CLI-built env config."""
-    for key, value in updates.items():
-        if isinstance(value, dict) and isinstance(base.get(key), dict):
-            _deep_update(base[key], value)
-        else:
-            base[key] = value
-    return base
-
-
-def _load_experiment_env_config(path: str) -> dict:
-    """Load optional env_config from the experiment YAML passed by run_experiment."""
-    if not path:
-        return {}
-    import yaml
-
-    exp_path = Path(path)
-    if not exp_path.is_absolute():
-        exp_path = (ROOT / exp_path).resolve()
-    data = yaml.safe_load(exp_path.read_text(encoding="utf-8")) or {}
-    if not isinstance(data, dict):
-        return {}
-    env_config = data.get("env_config", {})
-    if env_config is None:
-        return {}
-    if not isinstance(env_config, dict):
-        raise ValueError("experiment YAML env_config must be a mapping")
-    return env_config
 
 
 def parse_args():
@@ -1050,7 +1021,7 @@ def main():
         "max_engage_time": args.max_engage_time,
         "episode_step_limit": args.episode_step_limit,
     }
-    _deep_update(env_config, _load_experiment_env_config(args.experiment_yaml))
+    deep_update(env_config, load_experiment_env_config(args.experiment_yaml, ROOT))
     if args.reward_module:
         env_config["reward_module"] = args.reward_module
     if args.observation_module:

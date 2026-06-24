@@ -117,62 +117,6 @@ struct VPandThrottle
 
 #pragma pack(pop)
 
-//extern "C"
-//{
-//    void CreateBehaviorTree(int OwnerID, int ForceID);
-//    
-//    //1대1용으로 사용하던 임시 Step 함수. ACM 교전이 추가되면서 사용안함
-//    ControlValue Step(int MyID, int MyForceID, int TargetID, int MyTargetID, oNavigationData &Owner,  oNavigationData &Target);
-//    
-//    /*
-//    2대2를 위해 새로 추가된 Step함수.
-//    MyData                  : 내 비행기 정보
-//    NumOfOthers             : 내 비행기 말고 다른 비행기들 개수
-//    Others                  : 내 비행기 말고 다른 비행기들 정보
-//    isLockedOn              : 적기에게 락온 여부
-//    MSL_Lunch_Possible      : 현재 미사일 발사 가능 여부. true가 되면 LunchMSL() 함수 호출해줘야함
-//    Flare_Lunch_Possible    : 현재 플레어 사용 가능 여부. true가 되면 LunchFlare() 함수 호출해줘야함
-//    */
-//    ControlValue Step2(oPlaneData& MyData, int NumOfOthers, oPlaneData* Others, bool isLockedOn, bool & MSL_Lunch_Possible, bool & Flare_Lunch_Possible);    
-//   
-//     /*
-//    step2 함수에서 VP, Throttle 값을 반환하는 함수.
-//    MyData                  : 내 비행기 정보
-//    NumOfOthers             : 내 비행기 말고 다른 비행기들 개수
-//    Others                  : 내 비행기 말고 다른 비행기들 정보
-//    isLockedOn              : 적기에게 락온 여부
-//    MSL_Lunch_Possible      : 현재 미사일 발사 가능 여부. true가 되면 LunchMSL() 함수 호출해줘야함
-//    Flare_Lunch_Possible    : 현재 플레어 사용 가능 여부. true가 되면 LunchFlare() 함수 호출해줘야함
-//    */
-//    VPandThrottle GetVP(oPlaneData& MyData, int NumOfOthers, oPlaneData* Others, bool isLockedOn, bool & MSL_Lunch_Possible, bool & Flare_Lunch_Possible);
-//
-//    /*
-//    비헤비어트리가 가지고 있는 제어기를 실행하는 함수
-//    MyData                  : 내 비행기 정보
-//    VP_X, VP_Y, VP_Z        : 입력 VP 값
-//    */
-//    ControlValue GetStick(oPlaneData& MyData, float VP_X, float VP_Y, float VP_Z);
-//
-//    Vector3 LLAtoCartesian(Vector3 LLA, Vector3 BaseLLA);
-//
-//
-//    //2대2를 위해 비행기 배열을 만들기위한 함수 
-//    oPlaneData ChangeData(int ID, int Team, float HP, int OperType, oNavigationData& NaviData); 
-//   
-//    //2대2에서 아군기의 타겟을 변경시키기 위한 함수 FriendID :아군기 DISID, TargetDIS : 아군기 타겟 설정
-//    void SetTarget(int FriendID,int TargetDIS);
-//    
-//    //2대2에서 아군기의 ACM 모드를 변경시키기 위한 함수 ACM : 0 == EF, ACM : 1 == SF. FriendID :아군기 DISID, ACM : 아군기 ACM 설정  
-//    void SetACM_Mode(int FriendID,int ACM); 
-//    
-//    //비헤비어트리의 DeltaTime을 설정
-//    void SetBehaviorTreeDeltaTime(int OwnShipID, double DT);  
-//    
-//
-//    void Reset();
-//    void RemoveBT(int OwnerID);
-//  
-//}
 
 extern "C"
 {
@@ -237,12 +181,22 @@ Vector3 LLAtoCartesian(Vector3 LLA, Vector3 BaseLLA)
 
 void CreateBehaviorTree(int OwnerID, int ForceID)
 {
-    shared_ptr<UCPPBehaviorTree>  BT = make_shared<UCPPBehaviorTree>(); 
-    
+    if (BTList.find(OwnerID) != BTList.end())
+    {
+        cout << "BT already exists for OwnerID: " << OwnerID << endl;
+        return;
+    }
+
+    shared_ptr<UCPPBehaviorTree> BT = make_shared<UCPPBehaviorTree>();
+
     BT->ID = OwnerID;
     BT->ForceID = ForceID;
     BT->init();
-    BTList.insert(make_pair(BT->ID, BT));
+
+    if (BT->IsInitialized())
+    {
+        BTList.insert(make_pair(BT->ID, BT));
+    }
 }
 
 void Reset()
@@ -259,62 +213,22 @@ void RemoveBT(int OwnerID)
     }
 }
 
-//ControlValue Step(int MyID, int MyForceID, int TargetID, int TargetForceID,  oNavigationData &Owner,  oNavigationData &Target)
-//{
-//    ControlValue value;
-//    PlaneInfo my;
-//    PlaneInfo others[MAX_OTHRES];
-//    BT_Geometry::Vector3 VP;
-//    float throttle;
-//
-//    memset(others, 0, sizeof(PlaneInfo)*MAX_OTHRES);
-//
-//    my.Location = BT_Geometry::Vector3(Owner.Lat / 1000000.0, Owner.Lon / 1000000.0, (Owner.Alt / 1000.0) * FEET_TO_METER);
-//    my.Rotation = BT_Geometry::EulerAngle( Owner.psi/1000.0, Owner.theta/1000.0, Owner.phi/1000.0); //yaw pitch roll (deg)
-//    my.Speed    = (Owner.KTAS / 10.0) * 0.51444; //knot to m/s
-//    my.Team     = MyForceID;  //force side
-//    my.Resv0    = MyID;
-//   
-//
-//    //for(int i =0; i < NumOfTargets; i++)
-//    //{
-//        others[0].Location = BT_Geometry::Vector3(Target.Lat/1000000.0, Target.Lon/1000000.0, (Target.Alt / 1000.0) * FEET_TO_METER );
-//        others[0].Rotation = BT_Geometry::EulerAngle( Target.psi/1000.0, Target.theta/1000.0, Target.phi/1000.0); //yaw pitch roll (deg)
-//        others[0].Speed    = (Target.KTAS/ 10.0) * 0.51444; //knot to m/s
-//        others[0].Team     = TargetForceID;//force side
-//        others[0].Resv0    = TargetID;
-//    //}
-//
-//    auto BT_item = BTList.find((int)my.Resv0);
-//
-//   // cout << "my:" <<  my.Team << " lat:" << my.Location.X << " lon:" << my.Location.Y << " alt:" << my.Location.Z << endl;
-//   // cout << "target:" << others[0].Team  << " lat:" << others[0].Location.X << " lon:" << others[0].Location.Y << " alt:" << others[0].Location.Z << endl;
-//
-//    if(BT_item != BTList.end())
-//    {
-//        bool dump1;
-//        bool dump2;
-//        StickValue v = BT_item->second->Step(my, 1, others, VP, throttle);
-//        value.RollCMD = v.RollCMD;
-//        value.PitchCMD = v.PitchCMD;
-//        value.RudderCMD = v.RudderCMD;
-//        value.Throttle = throttle;
-//    }
-//    
-//    return value;
-//}
-
 ControlValue Step(oPlaneData& MyData, int NumOfOthers, oPlaneData* Others, bool isLockedOn, bool & MSL_Lunch_Possible, bool & Flare_Lunch_Possible)
 {
     ControlValue value;
+	value.RollCMD = 0;
+	value.PitchCMD = 0;
+	value.RudderCMD = 0;
+	value.Throttle = 0;
+
     PlaneInfo my;
     PlaneInfo others[3];
-    BT_Geometry::Vector3 VP;
-    float throttle;
+    BT_Geometry::Vector3 VP = Vector3(0,0,0);
+    float throttle = 0;
     //std::cout <<"LibMain NOO " <<NumOfOthers<<std::endl;
     memset(others, 0, sizeof(PlaneInfo)*3);
 
-    my.Location.X       = MyData.LocationX;     // 여기서는 LLA 좌표임. 비헤비어트리 안에서 카르테시안으로 바꿔서 씀
+    my.Location.X       = MyData.LocationX;
     my.Location.Y       = MyData.LocationY;
     my.Location.Z       = MyData.LocationZ;
     my.Rotation.Roll    = MyData.Roll; 
@@ -357,69 +271,17 @@ ControlValue Step(oPlaneData& MyData, int NumOfOthers, oPlaneData* Others, bool 
         value.RudderCMD = v.RudderCMD;
         value.Throttle = throttle;
     }
+    else
+    {
+		std::cout << "No BT found for MyID: " << my.Resv0 << std::endl;
+        value.PitchCMD = 0;
+        value.RollCMD = 0;
+        value.RudderCMD = 0;
+		value.Throttle = 0;
+    }
     
     return value;
 }
-
-//VPandThrottle GetVP(oPlaneData& MyData, int NumOfOthers, oPlaneData* Others, bool isLockedOn, bool & MSL_Lunch_Possible, bool & Flare_Lunch_Possible)
-//{
-//    
-//    ControlValue value;
-//    PlaneInfo my;
-//    PlaneInfo others[3];
-//    BT_Geometry::Vector3 VP;
-//    VPandThrottle VPaThrottle;
-//    float throttle;
-//    //std::cout <<"LibMain NOO " <<NumOfOthers<<std::endl;
-//    memset(others, 0, sizeof(PlaneInfo)*3);
-//
-//    my.Location.X       = MyData.LocationX;     // 여기서는 LLA 좌표임. 비헤비어트리 안에서 카르테시안으로 바꿔서 씀
-//    my.Location.Y       = MyData.LocationY;
-//    my.Location.Z       = MyData.LocationZ;
-//    my.Rotation.Roll    = MyData.Roll; 
-//    my.Rotation.Pitch   = MyData.Pitch;
-//    my.Rotation.Yaw     = MyData.Yaw;
-//    my.Speed            = MyData.Speed; 
-//    my.Team             = MyData.Team;  
-//    my.Resv0            = MyData.Resv0; //ID
-//    my.Resv1            = MyData.Resv1; //HP
-//    my.Resv2            = MyData.Resv2; //유인기 무인기 0 : AI, 1 : Human
-//   
-//   //std::cout <<"LibMain My HP " <<my.Resv1 <<std::endl;
-//
-//    for(int i =0; i < NumOfOthers; i++)
-//    {
-//        others[i].Location.X        = Others[i].LocationX;
-//        others[i].Location.Y        = Others[i].LocationY;
-//        others[i].Location.Z        = Others[i].LocationZ;
-//        others[i].Rotation.Roll     = Others[i].Roll;
-//        others[i].Rotation.Pitch    = Others[i].Pitch;
-//        others[i].Rotation.Yaw      = Others[i].Yaw;
-//        others[i].Speed             = Others[i].Speed; //m/s
-//        others[i].Team              = Others[i].Team;  //force side
-//        others[i].Resv0             = Others[i].Resv0;
-//        others[i].Resv1             = Others[i].Resv1;
-//        others[i].Resv2             = Others[i].Resv2;
-//        //std::cout << i <<" LibMain Other ID " << others[i].Resv0<< " " <<others[i].Location.X   << " " <<others[i].Location.Y    <<std::endl;
-//    }
-//
-//    auto BT_item = BTList.find((int)my.Resv0);
-//
-//   // cout << "my:" <<  my.Team << " lat:" << my.Location.X << " lon:" << my.Location.Y << " alt:" << my.Location.Z << endl;
-//   // cout << "target:" << others[0].Team  << " lat:" << others[0].Location.X << " lon:" << others[0].Location.Y << " alt:" << others[0].Location.Z << endl;
-//
-//    
-//    if(BT_item != BTList.end())
-//    {
-//         BT_item->second->Step(my, NumOfOthers, others, VP, throttle);
-//        
-//    }
-//    VPaThrottle.VPx = VP.X;
-//    VPaThrottle.VPy = VP.Y;
-//    VPaThrottle.VPz = VP.Z;
-//    VPaThrottle.Throttle = throttle;
-//    return VPaThrottle;
-//}
 
 ControlValue GetStick(oPlaneData& MyData, float VP_X, float VP_Y, float VP_Z)
 {
@@ -469,7 +331,7 @@ ControlValue GetStick(oPlaneData& MyData, float VP_X, float VP_Y, float VP_Z)
  Vector3 GetVP(oPlaneData& MyData)
  {
      PlaneInfo my;
-     BT_Geometry::Vector3 VP;
+     BT_Geometry::Vector3 VP = Vector3(0,0,0);
 
      my.Resv0 = MyData.Resv0; //ID
 
@@ -479,7 +341,6 @@ ControlValue GetStick(oPlaneData& MyData, float VP_X, float VP_Y, float VP_Z)
      if (BT_item != BTList.end())
      {
          VP = BT_item->second->GetVP();
-         //std::cout << "VP : " << VP.X << " " << VP.Y << " " << VP.Z << std::endl;
      }
      else
      {

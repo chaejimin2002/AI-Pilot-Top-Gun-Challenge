@@ -35,7 +35,7 @@ C:\Users\USER\anaconda3\envs\aip\python.exe scripts\run_experiment.py experiment
 |---|---|
 | `output.name` | 팀 이름 또는 실험 그룹 이름 |
 | `output.tag` | 저장될 모델/로그 버전 이름 |
-| `env.observation_mode` | `classic12`, `relative14`, `tactical16`, `legacy37`, `custom` |
+| `env.observation_mode` | `classic12`, `relative14`, `tactical16`, `custom` |
 | `env.observation_module` | `student.my_observation` 같은 custom 관측 module path |
 | `env.target_mode` | `fixed`, `loiter`, `autopilot`, `behavior_tree` |
 | `env_config.initial_scenario` | reset 시 초기 배치와 target type 분포 설정 |
@@ -43,6 +43,10 @@ C:\Users\USER\anaconda3\envs\aip\python.exe scripts\run_experiment.py experiment
 | `env_config.reward` | 기본 보상 scale 조정 |
 | `algo.name` | `sac` 또는 `ppo` |
 | `algo.lr`, `gamma`, `train_batch_size` | 주요 학습 하이퍼파라미터 |
+
+`legacy37`와 `ref_old_1vs1`은 연구 비교용 계약이므로 학생 배포본에서는 기본
+노출하지 않습니다. 해당 실험은 `MyTrainEnv/`의 ref_old 비교 YAML을 기준으로
+관리합니다.
 | `algo.mlp` | MLP hidden layer/activation 설정 |
 | `algo.lstm` | LSTM 사용, hidden size, sequence length 설정 |
 | `algo.network` | SAC LSTM sequence 구조를 layer 순서로 직접 지정 |
