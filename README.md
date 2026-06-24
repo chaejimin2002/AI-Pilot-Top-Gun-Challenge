@@ -117,6 +117,32 @@ python run_local_dogfight.py `
 
 ---
 
+## Push 전 필수 확인 (로컬 테스트)
+
+수정 내용에 따라 아래 명령을 실행하고 에러 없이 종료되면 push하세요.
+
+**BT 또는 JSBSim/Controller 수정 시:**
+```powershell
+cd DogFightEnv/Release
+python run_local_dogfight.py --ownship-backend bt --target-backend bt
+```
+
+**RL 수정 시 (학습된 모델 필요):**
+```powershell
+cd DogFightEnv/Release
+python run_local_dogfight.py `
+  --ownship-backend rl `
+  --ownship-bundle-dir artifacts/models/<팀이름>/<버전> `
+  --target-backend bt
+```
+
+> RL 모델이 아직 없으면 `--dry-run`으로 문법 오류만 먼저 확인:
+> ```powershell
+> python scripts/run_experiment.py experiments/student_sac_mlp.yaml --dry-run
+> ```
+
+---
+
 ## 파트 간 협업 규칙
 
 | 상황 | 방법 |
