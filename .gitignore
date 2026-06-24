@@ -61,3 +61,6 @@ ray_results/
 
 # Training artifacts (models, logs, records)
 DogFightEnv/Release/artifacts/
+
+# Unreal Engine viewer (배포 별도)
+Windows/
