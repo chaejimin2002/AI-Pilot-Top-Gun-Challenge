@@ -32,10 +32,13 @@ AIP_LIB/
 
 ```powershell
 git clone https://github.com/chaejimin2002/AI-Pilot-Top-Gun-Challenge.git
-cd AI-Pilot-Top-Gun-Challenge/DogFightEnv/Release
 
+# 가상환경 생성 (위치 무관, 최초 1회)
 conda create -n aip python=3.11
 conda activate aip
+
+# 패키지 설치 및 실행은 Release/ 폴더에서
+cd AI-Pilot-Top-Gun-Challenge/DogFightEnv/Release
 pip install -r requirements.txt
 ```
 
@@ -145,9 +148,42 @@ python run_local_dogfight.py `
 
 ## 파트 간 협업 규칙
 
+### Git 브랜치 전략
+
+**브랜치 명명 규칙:**
+```
+<파트>/<작업내용>
+예) bt/missile-evade-node
+    rl/reward-reshape
+    jsbsim/controller-gain-tune
+```
+
+**작업 흐름 (필수):**
+```powershell
+# 1. main 최신화
+git checkout main
+git pull origin main
+
+# 2. 작업 브랜치 생성
+git checkout -b bt/my-feature
+
+# 3. 작업 및 로컬 테스트 (위 파트별 가이드 참고)
+
+# 4. 커밋
+git add <수정파일>
+git commit -m "bt: 미사일 회피 노드 추가"
+
+# 5. push 후 PR 생성 → main 병합
+git push origin bt/my-feature
+```
+
+> main 브랜치에 직접 커밋하지 마세요. 반드시 브랜치에서 작업 후 PR로 병합합니다.
+
+### 파트 간 DLL/파일 의존성
+
 | 상황 | 방법 |
 |------|------|
-| BT / JSBSim DLL 업데이트 | push 후 다른 파트 `git pull` → DLL 자동 반영 |
+| BT / JSBSim DLL 업데이트 | main 병합 후 다른 파트 `git pull` → DLL 자동 반영 |
 | RL 학습 기준 BT 필요 | `--target-backend bt` 로 현재 BT DLL 상대로 학습 |
 | 전체 통합 테스트 | `run_local_dogfight.py --ownship-backend rl --target-backend bt` |
 
@@ -173,3 +209,15 @@ python run_unreal_inference.py `
 - 상세 학습 옵션: `DogFightEnv/Release/README.md`
 - BT 실행 구조: `Rule.xml`, `AIP_DCS/BehaviorTree/`
 - 환경 인터페이스: `src/dogfight/envs/single_agent_env.py`
+
+## 파트별 진행 상황
+
+각 파트의 현재 상태, 완료된 작업, AI 컨텍스트는 아래 파일에서 관리합니다.
+
+| 파트 | 파일 |
+|------|------|
+| BT | `AIP_DCS/BehaviorTree/progress.md` |
+| JSBSim / Controller | `AIP_DCS/Geometry/progress.md` |
+| RL | `DogFightEnv/Release/student/progress.md` |
+
+AI 툴을 이용할 때 해당 파일을 컨텍스트로 제공하고, 작업 후 내용을 업데이트하세요.
