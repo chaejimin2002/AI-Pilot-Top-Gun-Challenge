@@ -28,6 +28,100 @@ AIP_LIB/
 
 ---
 
+## 시뮬레이터 작동 구조
+
+### 전체 흐름
+
+```
+run_local_dogfight.py
+        │
+        ▼
+  DogFightEnv  (Gym 환경 / single_agent_env.py)
+┌────────────────────────────────────────────────────────────┐
+│ env.step() 루프                                             │
+│                                                            │
+│ for i in range(6):  ← 1 RL step = 6 physics steps          │
+│                                                            │
+│   ┌──────────────────────┐      ┌──────────────────────┐   │
+│   │ ownship              │      │ target               │   │
+│   │ ActionProvider       │      │ ActionProvider       │   │
+│   │ (RL / BT / Hybrid)   │      │ (BT / fixed)         │   │
+│   └──────────┬───────────┘      └──────────┬───────────┘   │
+│              ▼                             ▼               │
+│   FighterSim.JSBSim             FighterSim.JSBSim          │
+│   51-state vector               51-state vector            │
+│              └──────────────┬──────────────┘               │
+│                             ▼                              │
+│                    JSBSimAIPLib.dll                        │
+│          C++ flight dynamics engine, 60 Hz                 │
+│                             │                              │
+│                    update_damage()                         │
+│                    WEZ damage calculation                  │
+│                                                            │
+│ evaluate_termination()  → termination check                │
+│ compute_reward()        → reward calculation               │
+└────────────────────────────────────────────────────────────┘
+```
+
+### 1 스텝의 의미
+
+| 단위 | 주파수 | 설명 |
+|------|--------|------|
+| JSBSim step | 60 Hz | 비행 역학 물리 연산 1회 |
+| RL step | 10 Hz | 신경망 추론 1회 (6 JSBSim step 묶음) |
+| WEZ 피해 계산 | JSBSim step마다 | 거리·각도 조건 충족 시 health 차감 |
+
+### ActionProvider — RL/BT/Hybrid 교체 지점
+
+세 백엔드는 동일한 `ActionProvider` 인터페이스를 구현하므로 `--ownship-backend`, `--target-backend` 인자 하나로 교체됩니다.
+
+| 백엔드 | 동작 | DLL 필요 |
+|--------|------|----------|
+| `bt` | `AIP_BASE.dll` C++ BT 로직 실행 → 제어값 반환 | O |
+| `rl` | PyTorch 신경망 `forward_inference()` → 제어값 반환 | X |
+| `hybrid` | BT 기반값 + RL 잔차(residual) / 선형(blend) / 선택(switch) | O |
+
+### 상태·관측·보상
+
+```
+JSBSim FDM 출력 (230 byte C 구조체)
+    └─ _update_state() → 51개 상태 벡터
+            │
+            ▼
+    build_observation() → 관측 벡터 (RL 입력)
+      ├─ classic12  : 위치 6 + 자세 6
+      ├─ relative14 : 상대 위치 + 각도 + 거리
+      └─ tactical16 : 자세·속도·고도 + 상대 위치 + WEZ 정보 (권장)
+            │
+            ▼
+    compute_reward()
+      ├─ step_penalty    : 매 스텝 -0.01 (시간 효율)
+      ├─ pursuit         : ATA × 거리 그래디언트 (추격 형성)
+      ├─ damage          : target_damage - ownship_damage 미분
+      ├─ safety          : 고도 300m 미만 페널티
+      └─ terminal        : 승(+100) / 패(-100) / 무승부(-30)
+```
+
+### 종료 조건
+
+| 조건 | 종류 |
+|------|------|
+| 고도 300m 미만 | terminated |
+| health ≤ 0 (피해 누적) | terminated |
+| 연료 소진 / FDM 오류 | terminated |
+| 교전 시간 300초 초과 | truncated |
+| 에피소드 스텝 18000 초과 | truncated |
+
+### 각 파트가 건드리는 계층
+
+| 파트 | 수정 위치 | 빌드 필요 |
+|------|-----------|-----------|
+| BT | `Rule.xml`, `AIP_DCS/BehaviorTree/` C++ 노드 | Visual Studio (DLL) |
+| JSBSim | `AIP_DCS/Geometry/Controller_CY.cpp` | Visual Studio (DLL) |
+| RL | `student/my_reward.py`, `my_observation.py`, `my_curriculum.py` | X (Python) |
+
+---
+
 ## 공통 셋업 (전원 최초 1회)
 
 ```powershell
@@ -63,11 +157,22 @@ python run_local_dogfight.py --ownship-backend bt --target-backend bt
 **작업 흐름:**
 ```
 1. Rule.xml 또는 AIP_DCS/ C++ 노드 수정
-2. Visual Studio → AIP_DCS 빌드
+2. Visual Studio → AIP_DCS 빌드  (아래 빌드 가이드 참고)
 3. 빌드된 DLL → DogFightEnv/Release/AIP_BASE.dll 교체
 4. python run_local_dogfight.py --ownship-backend bt --target-backend bt
 5. git push (소스 + DLL 함께)
 ```
+
+**AIP_BASE.dll 빌드 가이드 (Visual Studio 2022):**
+```
+1. AIP_DCS/AIP_DCS.sln 파일을 더블클릭하여 Visual Studio로 열기
+2. 상단 툴바에서 구성을 Debug → Release, 플랫폼을 x64 로 변경
+3. Ctrl+Shift+B  (또는 빌드 → 솔루션 빌드)
+4. 빌드 성공 시 출력 경로: AIP_DCS/x64/Release/AIP_DCS.dll
+5. 해당 파일을 DogFightEnv/Release/AIP_BASE.dll 로 복사
+```
+
+> Debug 빌드로 실수하면 시뮬 성능이 크게 느려집니다. 반드시 **Release | x64** 확인 후 빌드하세요.
 
 ---
 
